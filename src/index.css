@@ -78,7 +78,13 @@ nav .notification{
 .product-card img{
     position: relative;
     max-width:300px;
+    transition:all 300ms ease 0s;
 }
+
+.item:hover .product-card img{
+    transform: scale(1.1);
+}
+
 
 .product-card .image{
     position: absolute;
@@ -91,6 +97,11 @@ nav .notification{
     z-index:-1;
     border-radius: 50px;
     box-shadow:0 0 40px rgb(51 51 51 / 10%);
+    transition: all 300ms ease 0s;
+}
+
+.item:hover .product-card .image{
+    box-shadow:0 0 40px rgb(51 51 51 / 20%);
 }
 
 .item h4 , .product-card h3 , .product-card h5{
@@ -132,6 +143,11 @@ nav .notification{
     border-radius: 50%;
     margin-left:0.1em;
     margin-right: 0.1em;
+    transition:all 300ms ease 0s;
+}
+
+.item:hover .heading .ball1{
+    transform:translateY(-7px)
 }
 
 .heading .ball1{
@@ -140,16 +156,28 @@ nav .notification{
 
 .heading .ball2{
     background:#bc90dc;
+    transition-delay: 75ms;
+}
+
+.item:hover .heading .ball2{
+    transform:translateY(-7px);
 }
 
 .heading .ball3{
     background:#ff978f;
+    transition-delay: 150ms;
 }
+
+.item:hover .heading .ball3{
+    transform: translateY(-7px);
+}
+
 
 .product-card .ball{
     position: absolute;
     z-index: 99;
     border-radius: 50%;
+    transition:all 300ms ease 0s;
 }
 
 .product-card .ball1{
@@ -160,6 +188,11 @@ nav .notification{
     background:#f200fb;
 }
 
+.item:hover .product-card .ball1{
+    transform: scale(1.1);
+    right:15%;
+}
+
 .product-card .ball2{
     left:30%;
     top:5%;
@@ -168,10 +201,19 @@ nav .notification{
     background : #ff002b;
 }
 
+.item:hover .product-card .ball2{
+    transform: scale(1.1);
+    left:25%;
+}
+
 .product-card .ball3{
     top:-5%;
     left:50%;
     width:7px;
     height: 7px;
     background:#2abb60;
+}
+
+.item:hover .product-card .ball3{
+    transform: scale(1.2);
 }

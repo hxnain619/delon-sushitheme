@@ -34,6 +34,7 @@ class Slider extends React.Component{
                 <div className="container">
                     <div className="row">
                         <div className="owl-carousel owl-theme">
+                            
                             <div className="col s12">
                                 <div className="item">
                                     <div className="heading">
@@ -55,6 +56,97 @@ class Slider extends React.Component{
                                     </div>
                                 </div>
                             </div>
+
+                            <div className="col s12">
+                                <div className="item">
+                                    <div className="heading">
+                                        <h4>let's eat</h4>
+                                        <span className="ball ball1"></span>
+                                        <span className="ball ball2"></span>
+                                        <span className="ball ball3"></span>
+                                    </div>
+                                    <div className="product-card">
+                                        
+                                        <span className="ball ball1"></span>
+                                        <span className="ball ball2"></span>
+                                        <span className="ball ball3"></span>
+
+                                        <img src={hamburger} alt=""/>
+                                        <div className="image"></div>
+                                        <h3>Burgers</h3>
+                                        <h5>46 items</h5>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="col s12">
+                                <div className="item">
+                                    <div className="heading">
+                                        <h4>let's eat</h4>
+                                        <span className="ball ball1"></span>
+                                        <span className="ball ball2"></span>
+                                        <span className="ball ball3"></span>
+                                    </div>
+                                    <div className="product-card">
+                                        
+                                        <span className="ball ball1"></span>
+                                        <span className="ball ball2"></span>
+                                        <span className="ball ball3"></span>
+
+                                        <img src={hamburger} alt=""/>
+                                        <div className="image"></div>
+                                        <h3>Burgers</h3>
+                                        <h5>46 items</h5>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="col s12">
+                                <div className="item">
+                                    <div className="heading">
+                                        <h4>let's eat</h4>
+                                        <span className="ball ball1"></span>
+                                        <span className="ball ball2"></span>
+                                        <span className="ball ball3"></span>
+                                    </div>
+                                    <div className="product-card">
+                                        
+                                        <span className="ball ball1"></span>
+                                        <span className="ball ball2"></span>
+                                        <span className="ball ball3"></span>
+
+                                        <img src={hamburger} alt=""/>
+                                        <div className="image"></div>
+                                        <h3>Burgers</h3>
+                                        <h5>46 items</h5>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="col s12">
+                                <div className="item">
+                                    <div className="heading">
+                                        <h4>let's eat</h4>
+                                        <span className="ball ball1"></span>
+                                        <span className="ball ball2"></span>
+                                        <span className="ball ball3"></span>
+                                    </div>
+                                    <div className="product-card">
+                                        
+                                        <span className="ball ball1"></span>
+                                        <span className="ball ball2"></span>
+                                        <span className="ball ball3"></span>
+
+                                        <img src={hamburger} alt=""/>
+                                        <div className="image"></div>
+                                        <h3>Burgers</h3>
+                                        <h5>46 items</h5>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
                         </div>
                     </div>
                 </div>
