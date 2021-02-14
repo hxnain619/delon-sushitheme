@@ -50,7 +50,7 @@ class Slider extends React.Component{
                                         <span className="ball ball3"></span>
 
                                         <img src={hamburger} alt=""/>
-                                        <div className="image"></div>
+                                        <div className="image my-orange"></div>
                                         <h3>Burgers</h3>
                                         <h5>46 items</h5>
                                     </div>
@@ -72,7 +72,7 @@ class Slider extends React.Component{
                                         <span className="ball ball3"></span>
 
                                         <img src={hamburger} alt=""/>
-                                        <div className="image"></div>
+                                        <div className="image my-pink"></div>
                                         <h3>Burgers</h3>
                                         <h5>46 items</h5>
                                     </div>
@@ -94,7 +94,7 @@ class Slider extends React.Component{
                                         <span className="ball ball3"></span>
 
                                         <img src={hamburger} alt=""/>
-                                        <div className="image"></div>
+                                        <div className="image my-purple"></div>
                                         <h3>Burgers</h3>
                                         <h5>46 items</h5>
                                     </div>

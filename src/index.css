@@ -90,7 +90,6 @@ nav .notification{
     position: absolute;
     width:100%;
     height:100%;
-    background:#ffebd1;
     left:50%;
     top:50%;
     transform: translate(-50%,-50%) rotate3d(10,10,10,5deg);;
@@ -99,6 +98,19 @@ nav .notification{
     box-shadow:0 0 40px rgb(51 51 51 / 10%);
     transition: all 300ms ease 0s;
 }
+
+.my-orange{
+	background: #fcddc0;
+}
+
+.my-pink{
+    background: #ffdce0;
+}
+
+.my-purple{
+    background:#d8dbfd;
+}
+
 
 .item:hover .product-card .image{
     box-shadow:0 0 40px rgb(51 51 51 / 20%);
