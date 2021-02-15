@@ -6,9 +6,12 @@ import Rider from '../images/ride.png'
 
 export default class Cart extends React.Component {
     render() {
-        let ITEMS = []
+        let ITEMS = [{name: 'food', total: 2, price: 12}]
         return (<>
             <Nav content="back" position="top" title="Cart" />
+            <br/>
+            <br/>
+            <br/>
             {ITEMS.length > 0 ? <>
                 <div style={{ marginTop: '10%' }}>
                     <div className="container">
@@ -18,9 +21,9 @@ export default class Cart extends React.Component {
                                 <div className="col s4">
                                     <img src={Rider} alt="approx delivery" />
                                 </div>
-                                <div className="col s8">
+                                <div className="col s8 center">
                                     <small style={{ textTransform: 'capitalize', fontSize: 12, color: 'gray' }}>estimate delivery</small>
-                                    <p className="title">NOW (45 min)</p>
+                                    <p className="title center">NOW (45 min)</p>
                                 </div>
                             </div>
                         </div>
@@ -30,7 +33,7 @@ export default class Cart extends React.Component {
                                     <div className="row" key={key}>
                                         <div className="col s6">
                                             <div className="col s6">
-                                                <input type="number" className='count center' value={item.NOI} onChange={(e) => this.setState({ IOT: e.currentTarget.value })} />
+                                                <input type="number" className='count center' value={item.total} />
                                             </div>
                                             <div className="col s6">
                                                 <p style={{ color: '#ff978f', textAlign: 'left', textTransform: 'capitalize', fontSize: 14 }}>{item.name}</p>

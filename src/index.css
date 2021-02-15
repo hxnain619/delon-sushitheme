@@ -16,7 +16,7 @@
 
 html,
 body {
-    font-family: 'Monteserrat', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif !important;
+    font-family: 'Monteserrat', 'Roboto', !important;
 }
 
 body {
@@ -37,8 +37,8 @@ code {
 nav {
     background: #fff!important;
     /* height: auto!important;
-    line-height: auto!important; */
-    /* padding-top: 1.3em; */
+    line-height: auto!important;
+    padding-top: 1.3em; */
     position: fixed;
     bottom: 0;
     left: 0;
@@ -63,8 +63,7 @@ nav .notification {
     height: 7px;
     display: inline-block;
     border-radius: 50%;
-    bottom: 0%;
-    right: -30%;
+    bottom: 12px;
     position: absolute;
 }
 
@@ -265,15 +264,6 @@ nav .notification {
     border: 1px solid #ff978f;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: 'Monteserrat' !important;
-}
-
 .total {
     position: fixed;
     bottom: 0;
@@ -295,7 +285,7 @@ h6 {
 .count:focus,
 .count:focus-within,
 .count:hover {
-    border: 2px solid #ff978f !important;
+    border: 2px solid #ff9088 !important;
 }
 
 table>tr>td:first-child {
@@ -305,4 +295,23 @@ table>tr>td:first-child {
 table>tr>td:last-child {
     text-align: center;
     color: rgb(95, 95, 95) !important;
+}
+
+
+/* Carousel/Slider */
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background: none !important;
+    color: #ff9088 !important;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #ff9088 !important;
+}
+
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next {
+    font-size: 30px;
+    font-weight: bold;
 }

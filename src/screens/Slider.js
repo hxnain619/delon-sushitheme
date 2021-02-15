@@ -30,7 +30,10 @@ class Slider extends React.Component{
 
     render(){
         return(<>
-        <Nav position="bottom" />
+        <Nav position="top" />
+        <br/>
+        <br/>
+        <br/>
             <div className="slider">
                 <div className="container">
                     <div className="row">

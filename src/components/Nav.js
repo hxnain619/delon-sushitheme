@@ -5,7 +5,7 @@ class Nav extends React.Component {
     render() {
         let { title, position } = this.props
         return (
-            <nav className={`container-fluid center`} style={position == 'top' ? { top: '0', position: "relative" } : { bottom: '0', position: "fixed" }} >
+            <nav className={`container-fluid center`} style={position == 'top' ? { top: '0', position: "fixed" } : { bottom: '0', position: "fixed" }} >
                 {title ?
                     <div className="row">
                         <div className="col s2" >
