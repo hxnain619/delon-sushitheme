@@ -1,6 +1,6 @@
 import React from 'react'
 import hamburger from '../images/hamburger.png'
-
+import Nav from '../components/Nav'
 class Slider extends React.Component{
 
 
@@ -29,7 +29,8 @@ class Slider extends React.Component{
 
 
     render(){
-        return(
+        return(<>
+        <Nav position="bottom" />
             <div className="slider">
                 <div className="container">
                     <div className="row">
@@ -151,7 +152,7 @@ class Slider extends React.Component{
                     </div>
                 </div>
             </div>
-        )
+        </>)
     }
 }
 
